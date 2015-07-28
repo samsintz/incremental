@@ -2,7 +2,11 @@
     •or build them dynamically from the script to avoid weird table stuff
     
 
-•add faster IV drip to help with sips
-
 •add ability to learn a new language + $0.5/sec
+    •add message that you can now handle your coffee addiction, but you are hungry. 
+        •your body starts to shake and you need to eat really soon or else you will crash from too much caffine
+        
+•add food counter - costs $1/sec --> the coffee shop is really expensive 
+    •initialize at 50%
+    
 
