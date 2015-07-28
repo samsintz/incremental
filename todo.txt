@@ -1,0 +1,8 @@
+•think about separating jobs from upgrades
+    •or build them dynamically from the script to avoid weird table stuff
+    
+
+•add faster IV drip to help with sips
+
+•add ability to learn a new language + $0.5/sec
+

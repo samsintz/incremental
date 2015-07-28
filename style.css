@@ -1,0 +1,18 @@
+#coffeeCup {
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+
+body {
+    font-family: "Roboto", serif;
+    font-weight:100;
+}
+
+#upgrades {
+    width:100%;
+}
+
+#upgradesTable {
+    width: 100%;
+}

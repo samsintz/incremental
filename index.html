@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drink Up</title>
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.1/material.blue_grey-pink.min.css">
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.1/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div id="coffeeCup">
+        <button id="sip" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary">
+        sip coffee
+        </button>
+        
+        <div id="caffineContainer">
+            <h4 id="caffine">0</h4>
+            <h4 id="money">$100</h4>
+        </div>
+        
+        <div id="upgrades">
+            <table id="upgradesTable" class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+                <thead>
+                    <tr>
+                        <th class="mdl-data-table__cell--non-numeric">Upgrades</th>
+                        <th>Price</th>
+                        <th>Effect</th>
+                        <th>Purchase</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="strawRow">
+                        <td class="mdl-data-table__cell--non-numeric">Straw</td>
+                        <td>20</td>
+                        <td>Each sip gives you +2 caffine</td>
+                        <td><button id="strawUpgrade" class="mdl-button mdl-js-button mdl-button--accent">
+                                buy
+                            </button></td>
+                    </tr>
+                    <tr id="wideStrawRow">
+                        <td class="mdl-data-table__cell--non-numeric">Wide Straw</td>
+                        <td>40</td>
+                        <td>Each sip gives you +3 caffine</td>
+                        <td><button id="wideStrawUpgrade" class="mdl-button mdl-js-button mdl-button--accent">
+                                buy
+                            </button></td>
+                    </tr>
+                    <tr id="IVRow">
+                        <td class="mdl-data-table__cell--non-numeric">Coffee I.V.</td>
+                        <td>100</td>
+                        <td>+1 sip/sec</td>
+                        <td><button id="IVUpgrade" class="mdl-button mdl-js-button mdl-button--accent">
+                                buy
+                            </button></td>
+                    </tr>
+                    <tr id="learnToCodeRow">
+                        <td class="mdl-data-table__cell--non-numeric">Job Posting: Learn To Code</td>
+                        <td>100</td>
+                        <td>+$0.50/sec</td>
+                        <td><button id="learnToCodeUpgrade" class="mdl-button mdl-js-button mdl-button--accent">
+                                buy
+                            </button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="messages">
+            <p id="messageIV">the coffee shop does not appreciate you installing an I.V. you now have to pay for your coffee (-$1/sec). better get a job</p>
+        </div>
+    </div>
+    
+    <script src="game.js"></script>
+</body>
+</html>
